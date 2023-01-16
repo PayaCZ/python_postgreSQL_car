@@ -20,10 +20,8 @@ if __name__ == "__main__":
                 car_id SERIAL PRIMARY KEY,
                 brand VARCHAR(128) NOT NULL,
                 old_year INT NOT NULL,
-                price INT NOT NULL,
-                fuel VARCHAR(128),
-                color VARCHAR(128),
-                mileage INT
+                price INT NOT NULL
+           
             );
             """
         )
