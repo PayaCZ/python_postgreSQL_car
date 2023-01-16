@@ -4,7 +4,7 @@ import connection
 
 
 def get_cars(curr, conn):
-    curr.execute("SELECT brand, old_year, price FROM car")
+    curr.execute("SELECT * FROM car")
     result = curr.fetchall()
     return result
 
@@ -12,7 +12,7 @@ def get_cars(curr, conn):
 def insert_car(curr, conn, brand, old_year, price):
     curr.execute(
         "INSERT INTO car (brand, old_year, price) VALUES (%s, %s, %s)",
-        (brand, old_year, price),
+        (brand, old_year, price)
     )
 
 
