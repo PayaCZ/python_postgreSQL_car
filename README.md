@@ -1,7 +1,7 @@
 #python_postgreSQL_car#
 
 
-Tato tabulke postgreSQL je vytvořena pomocí Python ver. 3.11.0 a  knihovně psycopg2 ver. 2.9.5.
+Tato tabulke postgreSQL je vytvořena pomocí Python ver. 3.11.0, knihovně psycopg2 ver. 2.9.5. a os.
 
 Uložiště obsahuje 4 soubory:
 1. connection.py: udaje k přihlášení do postgreSQL databáze
