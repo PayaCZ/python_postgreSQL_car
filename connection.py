@@ -9,5 +9,5 @@ POSTGRES_USER = os.getenv("POSTGRES_USER", "postgres")
 POSTGRES_PASSWORD = os.getenv("POSTGRES_PASSWORD", "petulilinka")
 
 
-POSTGRES_CONNECTION_STRING = os.getenv
-("POSTGRES_CONNECTION_STRING", "dbname=car user=postgres password=petulilinka host=localhost port=5432")
+#POSTGRES_CONNECTION_STRING = os.getenv
+#("POSTGRES_CONNECTION_STRING", "dbname=car user=postgres password=petulilinka host=localhost port=5432")
