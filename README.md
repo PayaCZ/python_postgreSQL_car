@@ -1,5 +1,5 @@
 #python_postgreSQL_car#
-#######################
+
 
 Tato tabulke postgreSQL je vytvořena pomocí Python ver. 3.11.0 a  knihovně psycopg2 ver. 2.9.5.
 
